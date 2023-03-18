@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>2주차</title>
+</head>
+<body>
+    <header>
+        <div id='logo'>
+          <a href='#'><img src='./img/logo.png' width='300' height='70'></a>
+        </div>
+  
+        <nav id='menus'>
+  
+          <div id='top_menu'>
+            로그인 | 회원가입 | 공지사항
+  
+          </div>
+          <ul id='main_menu'>
+            <li><a href='#'>준비</a></li>
+            <li><a href='#'>여행지</a></li>
+            <li><a href='#'>후기</a></li>
+          </ul>
+        </nav>
+        </header>
+        <section id='main_img'>
+        </section>
+        <section id='contents_img'>
+
+    </section>
+        <div class='clear'></div>
+    <!-- float 속성 해제-->
+    <footer>
+      <div id='footer_box'>
+        <div id='footer_logo'>
+          <img src='./img/logo.png' width='200' height='45'>
+          </div>
+          <ul id='address'>
+            <li>COPYRIGHT (C) 오나영 </li>
+
+          </ul>
+      </div>
+    </footer>
+    
+    <button id="top">top</button>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+
+        // 버튼 클릭 이벤트에 scrollToTop 함수를 할당
+        var button = document.getElementById("top");
+        button.addEventListener("click", scrollToTop);
+    </script>
+</body>
+
+</html>
